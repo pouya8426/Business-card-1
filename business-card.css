@@ -1,0 +1,42 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.container {
+    width: 230px;
+    padding: 30px 20px 30px 20px ;
+    
+    margin: 0 auto;
+    text-align: center;
+    background-color: #E6EDE3;
+    color: #191923;
+    border-top: 8px groove #AAC0AA;
+    font-size: 17pt;
+    border-radius: 0 0 35px 35px;
+    animation-name: opacity;
+    animation-duration: 2s;
+    box-shadow: 0px 3px 15px
+    rgba(53, 70, 73, 0.05);
+}
+.container:hover{
+    box-shadow: 0px 3px 15px
+    rgba(53, 70, 73, 0.12);
+    
+}
+.image {
+    width: 200px;
+    border: 4px inset #AAC0AA;
+    border-radius: 400px;
+    margin-top: 10px;
+}
+.test-border {
+    border: 2px dotted blue;
+}
+.texts {
+    line-height: 25px;
+    margin-top: 40px;
+}
+@keyframes opacity {
+    from {opacity: 0.1;}
+    to {opacity: 1;}
+}
